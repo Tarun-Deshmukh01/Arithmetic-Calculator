@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arithmetic Calculator</title>
+    <link rel="stylesheet" href="Calculator.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>Arithmetic Calculator</h2>
+        <input type="number" id="a" placeholder="Enter First Number">
+        <input type="number" id="b" placeholder="Enter Second Number">
+        <div id="btn-btn">
+            <button type="button" onclick="c.value =+ a.value + + b.value">+</button>
+            <button type="button" onclick="c.value =+ a.value - b.value">-</button>
+            <button type="button" onclick="c.value =+ a.value * b.value">*</button>
+            <button type="button" onclick="c.value =+ a.value / b.value">/</button>
+            <button type="button" onclick="c.value =+ a.value % b.value">%</button>
+            <button type="button" onclick="c.value=' ' , a.value= ' ' , b.value= ' '">C</button><br>
+        </div>
+        <output id="c"></output>
+    </div>
+
+
+</body>
+
+</html>
